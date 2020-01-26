@@ -20,12 +20,17 @@ import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.MediaEntityModelProvider;
 import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
+import com.aventstack.extentreports.reporter.configuration.ChartLocation;
 
 public class ExtentReport_Latest implements IReporter{
 	private ExtentHtmlReporter reporter;
 	ExtentReports extent = new ExtentReports();
+
 	public void buildTestNodes(IResultMap tests, Status status) throws IOException {
 		//ExtentReports extent = new ExtentReports();
+		reporter.config().setTestViewChartLocation(ChartLocation.TOP);
+		reporter.config().setChartVisibilityOnOpen(true);
+		reporter.config().setEncoding("utf-8");
 		extent.attachReporter(reporter);
 		ExtentTest test;
 		if (tests.size() > 0) {
@@ -51,6 +56,7 @@ public class ExtentReport_Latest implements IReporter{
 				//[-]*[0-9]*\\.(png|jpg|jpeg)
 				//String screens = System.getProperty("user.dir") + "/ScreenShots";
 				 String screens = Paths.get("").toAbsolutePath().toString()+"/ScreenShots";
+				  System.out.println("The screens path is  : " + screens);
 				//String screens =  "ScreenShots";
 				File directory = new File(screens);
 				//FileFilter f = new WildcardFileFilter(result.getName());
