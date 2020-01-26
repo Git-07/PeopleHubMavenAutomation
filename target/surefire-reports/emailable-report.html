@@ -9,11 +9,51 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">LocalisationTesting</th></tr>
-<tr><td><a href="#t0">RegressionTest</a></td><td class="num">1</td><td class="num">0</td><td class="num attn">1</td><td class="num">161,313</td><td></td><td></td></tr>
+<tr><td><a href="#t0">RegressionTest</a></td><td class="num">1</td><td class="num">0</td><td class="num attn">1</td><td class="num">182,518</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">LocalisationTesting</th></tr></tbody><tbody id="t0"><tr><th colspan="4">RegressionTest &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">Maven.DesignPatternTest</td><td><a href="#m0">orgatakeSrcImageCES</a></td><td rowspan="1">1580035610569</td><td rowspan="1">101622</td></tr><tr><th colspan="4">RegressionTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">Maven.DesignPatternTest</td><td><a href="#m1">orgbImmersiveAurora</a></td><td rowspan="1">1580035712469</td><td rowspan="1">57249</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">LocalisationTesting</th></tr></tbody><tbody id="t0"><tr><th colspan="4">RegressionTest &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">Maven.DesignPatternTest</td><td><a href="#m0">closeTheDriverInstance</a></td><td rowspan="1">1580038603140</td><td rowspan="1">10666</td></tr><tr><th colspan="4">RegressionTest &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">Maven.DesignPatternTest</td><td><a href="#m1">orgatakeSrcImageCES</a></td><td rowspan="1">1580038431341</td><td rowspan="1">126159</td></tr><tr><th colspan="4">RegressionTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">Maven.DesignPatternTest</td><td><a href="#m2">orgbImmersiveAurora</a></td><td rowspan="1">1580038557625</td><td rowspan="1">45512</td></tr></tbody>
 </table>
-<h2>RegressionTest</h2><h3 id="m0">Maven.DesignPatternTest#orgatakeSrcImageCES</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>Chrome</td><td>No</td><td>en-in</td><td>Test1</td></tr><tr><th colspan="4">Exception</th></tr><tr><td colspan="4"><div class="stacktrace">java.lang.AssertionError: The following asserts failed:
+<h2>RegressionTest</h2><h3 id="m0">Maven.DesignPatternTest#closeTheDriverInstance</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Chrome</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.WebDriverException: Error communicating with the remote browser. It may have died.
+Build info: version: &apos;2.40.0&apos;, revision: &apos;fbe29a9&apos;, time: &apos;2014-02-19 20:54:28&apos;
+System info: host: &apos;mohit-PC&apos;, ip: &apos;192.168.0.104&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;x86&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;
+Driver info: driver.version: EventFiringWebDriver
+Command duration or timeout: 0 milliseconds
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:452)
+	at Maven.DesignPatternTest.closeTheDriverInstance(DesignPatternTest.java:188)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: &apos;2.40.0&apos;, revision: &apos;fbe29a9&apos;, time: &apos;2014-02-19 20:54:28&apos;
+System info: host: &apos;mohit-PC&apos;, ip: &apos;192.168.0.104&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;x86&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;
+Driver info: driver.version: EventFiringWebDriver
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;MOHIT-PC&apos;, ip: &apos;192.168.0.104&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_05&apos;
+Driver info: driver.version: EventFiringWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:588)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:442)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:101)
+	at com.sun.proxy.$Proxy2.quit(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.quit(EventFiringWebDriver.java:198)
+	at org.openqa.selenium.remote.server.handler.DeleteSession.call(DeleteSession.java:49)
+	at org.openqa.selenium.remote.server.handler.DeleteSession.call(DeleteSession.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:170)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">Maven.DesignPatternTest#orgatakeSrcImageCES</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>Chrome</td><td>No</td><td>en-in</td><td>Test1</td></tr><tr><th colspan="4">Exception</th></tr><tr><td colspan="4"><div class="stacktrace">java.lang.AssertionError: The following asserts failed:
 	Launched Url is not same expected [https://peoplehub.mindtree.com/Pages/OrgCanvas.aspx] but found [https://peoplehub.mindtree.com/Pages/OrgCanvas.aspxghshgs]
 	at Maven.DesignPatternTest.orgatakeSrcImageCES(DesignPatternTest.java:108)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
@@ -21,6 +61,6 @@
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
 	at java.lang.Thread.run(Thread.java:745)
 ... Removed 17 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">Maven.DesignPatternTest#orgbImmersiveAurora</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>Chrome</td><td>ExpectedSrc</td><td>AttributeName</td><td>PageUrl</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">Maven.DesignPatternTest#orgbImmersiveAurora</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>Chrome</td><td>ExpectedSrc</td><td>AttributeName</td><td>PageUrl</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

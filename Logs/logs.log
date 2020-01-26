@@ -562,3 +562,13 @@
 16:18:46.766 [TestNG-tests-1] INFO  java.lang.Class - immerse link is clicked
 16:19:22.603 [TestNG-tests-1] INFO  java.lang.Class - Window switched to Augmented reality page
 16:19:31.850 [TestNG-tests-1] INFO  java.lang.Class - WebDriver instance for Chrome closed succesfully
+17:03:51.182 [main] INFO  java.lang.Class - Url is retrieved from properties file
+17:03:51.281 [main] INFO  java.lang.Class - test Data file path is retrieved
+17:03:51.367 [TestNG-tests-1] INFO  java.lang.Class - Chrome web driver path is retrieved
+17:05:48.758 [TestNG-tests-1] INFO  java.lang.Class - WebDriver instance for browser Chrome launched successfully
+17:05:48.785 [TestNG-tests-1] INFO  java.lang.Class - expected Url is launched
+17:05:49.503 [TestNG-tests-1] INFO  java.lang.Class - ces element is present
+17:05:57.500 [TestNG-tests-1] INFO  java.lang.Class - Image is captured successfully
+17:06:04.671 [TestNG-tests-1] INFO  java.lang.Class - immerse element is present
+17:06:05.401 [TestNG-tests-1] INFO  java.lang.Class - immerse link is clicked
+17:06:35.619 [TestNG-tests-1] INFO  java.lang.Class - Window switched to Augmented reality page

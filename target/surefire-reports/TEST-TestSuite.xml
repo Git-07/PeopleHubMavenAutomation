@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="202.569" tests="2" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="203.726" tests="3" errors="0" skipped="0" failures="2">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_05\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\mohit\AppData\Local\Temp\surefire4028426871067507665\surefirebooter8978980609881117155.jar C:\Users\mohit\AppData\Local\Temp\surefire4028426871067507665 2020-01-26T16-16-36_014-jvmRun1 surefire4216069474270279075tmp surefire_01764445331863501192tmp"/>
+    <property name="sun.java.command" value="C:\Users\mohit\AppData\Local\Temp\surefire5233707320927021780\surefirebooter8854419870169859010.jar C:\Users\mohit\AppData\Local\Temp\surefire5233707320927021780 2020-01-26T17-03-36_359-jvmRun1 surefire2538060866555463283tmp surefire_07742507627097573474tmp"/>
     <property name="surefire.test.class.path" value="C:\Users\mohit\workspace\Automation_PeopleHub\target\test-classes;C:\Users\mohit\workspace\Automation_PeopleHub\target\classes;C:\Users\mohit\.m2\repository\org\apache\commons\commons-collections4\4.3\commons-collections4-4.3.jar;C:\Users\mohit\.m2\repository\com\aventstack\extentreports\3.1.5\extentreports-3.1.5.jar;C:\Users\mohit\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\mohit\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\mohit\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\mohit\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\mohit\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\mohit\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\mohit\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\mohit\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\mohit\.m2\repository\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar;C:\Users\mohit\.m2\repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar;C:\Users\mohit\.m2\repository\org\apache\logging\log4j\log4j-api\2.11.0\log4j-api-2.11.0.jar;C:\Users\mohit\.m2\repository\org\apache\logging\log4j\log4j-core\2.11.0\log4j-core-2.11.0.jar;C:\Users\mohit\.m2\repository\org\apache\poi\poi\4.1.0\poi-4.1.0.jar;C:\Users\mohit\.m2\repository\commons-codec\commons-codec\1.12\commons-codec-1.12.jar;C:\Users\mohit\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\mohit\.m2\repository\org\apache\poi\poi-ooxml\4.1.0\poi-ooxml-4.1.0.jar;C:\Users\mohit\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.0\poi-ooxml-schemas-4.1.0.jar;C:\Users\mohit\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\mohit\.m2\repository\org\seleniumhq\selenium\selenium-server\3.141.59\selenium-server-3.141.59.jar;C:\Users\mohit\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\mohit\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\mohit\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\mohit\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\mohit\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\mohit\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\mohit\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\mohit\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\mohit\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\mohit\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\mohit\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\mohit\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\mohit\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\mohit\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\mohit\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\mohit\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\mohit\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\mohit\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\mohit\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\mohit\.m2\repository\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar;C:\Users\mohit\.m2\repository\org\seleniumhq\selenium\jetty-repacked\9.4.12.v20180830\jetty-repacked-9.4.12.v20180830.jar;C:\Users\mohit\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\mohit\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\mohit\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\mohit\.m2\repository\org\yaml\snakeyaml\1.19\snakeyaml-1.19.jar;C:\Users\mohit\.m2\repository\commons-io\commons-io\2.5\commons-io-2.5.jar;C:\Users\mohit\.m2\repository\org\apache\poi\poi-scratchpad\4.1.1\poi-scratchpad-4.1.1.jar;C:\Users\mohit\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar;C:\Users\mohit\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\mohit\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\mohit\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\mohit\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\mohit"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\mohit\AppData\Local\Temp\surefire4028426871067507665\surefirebooter8978980609881117155.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\mohit\AppData\Local\Temp\surefire5233707320927021780\surefirebooter8854419870169859010.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files (x86)\Java\jdk1.8.0_05\jre\lib\resources.jar;C:\Program Files (x86)\Java\jdk1.8.0_05\jre\lib\rt.jar;C:\Program Files (x86)\Java\jdk1.8.0_05\jre\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jdk1.8.0_05\jre\lib\jsse.jar;C:\Program Files (x86)\Java\jdk1.8.0_05\jre\lib\jce.jar;C:\Program Files (x86)\Java\jdk1.8.0_05\jre\lib\charsets.jar;C:\Program Files (x86)\Java\jdk1.8.0_05\jre\lib\jfr.jar;C:\Program Files (x86)\Java\jdk1.8.0_05\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
@@ -53,26 +53,44 @@
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="java.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_05\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\SYSTEM32;C:\WINDOWS;C:\WINDOWS\SYSTEM32\WBEM;C:\WINDOWS\SYSTEM32\WINDOWSPOWERSHELL\V1.0\;C:\NODEJS\;D:\SOFTWARE\APACHE-MAVEN-3.5.3-BIN\APACHE-MAVEN-3.5.3\BIN;C:\PROGRAM FILES (X86)\JAVA\JDK1.8.0_05\BIN;C:\PROGRAM FILES (X86)\JAVA\JRE8\BIN;C:\USERS\MOHIT\DESKTOP\AXIS2-1.6.2\AXIS2-1.6.2\BIN;C:\PROGRAM FILES\GIT\CMD;C:\PROGRAM FILES\DOTNET\;C:\Program Files\WIDCOMM\Bluetooth Software\;C:\Program Files\WIDCOMM\Bluetooth Software\syswow64;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\mohit\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\mohit\AppData\Local\Programs\Python\Python38-32\;C:\Users\mohit\AppData\Roaming\npm;C:\Program Files\MongoDB\Server\3.2\bin;C:\Program Files (x86)\Java\jdk1.8.0_05\bin;C:\Users\mohit\AppData\Local\Microsoft\WindowsApps;C:\Users\mohit\Anaconda3;C:\Users\mohit\Anaconda3\Scripts;C:\Users\mohit\Anaconda3\Library\bin;;."/>
-    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.version" value="25.5-b02"/>
     <property name="java.ext.dirs" value="C:\Program Files (x86)\Java\jdk1.8.0_05\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="orgatakeSrcImageCES" classname="Maven.DesignPatternTest" time="101.902">
+  <testcase name="orgatakeSrcImageCES" classname="Maven.DesignPatternTest" time="126.377">
     <failure message="The following asserts failed:&#10;	Launched Url is not same expected [https://peoplehub.mindtree.com/Pages/OrgCanvas.aspx] but found [https://peoplehub.mindtree.com/Pages/OrgCanvas.aspxghshgs]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
 The following asserts failed:
 	Launched Url is not same expected [https://peoplehub.mindtree.com/Pages/OrgCanvas.aspx] but found [https://peoplehub.mindtree.com/Pages/OrgCanvas.aspxghshgs]
 	at Maven.DesignPatternTest.orgatakeSrcImageCES(DesignPatternTest.java:108)
 ]]></failure>
-    <system-out><![CDATA[Test from test tag of testng.xml ->  Test1   RemoteWebDriver: chrome on XP (9eb92a15-e097-4e76-ba51-7df15ea08446)
+    <system-out><![CDATA[Test from test tag of testng.xml ->  Test1   RemoteWebDriver: chrome on XP (6da07bc7-b6b2-45e5-b60d-467d83121975)
 ]]></system-out>
-    <system-err><![CDATA[Jan 26, 2020 4:16:50 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+    <system-err><![CDATA[Jan 26, 2020 5:03:51 PM org.openqa.selenium.remote.DesiredCapabilities chrome
 INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
-Jan 26, 2020 4:17:26 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jan 26, 2020 5:04:39 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 ]]></system-err>
   </testcase>
-  <testcase name="orgbImmersiveAurora" classname="Maven.DesignPatternTest" time="57.374"/>
+  <testcase name="orgbImmersiveAurora" classname="Maven.DesignPatternTest" time="45.477"/>
+  <testcase name="closeTheDriverInstance" classname="Maven.DesignPatternTest" time="56.129">
+    <failure message="Error communicating with the remote browser. It may have died.&#10;Build info: version: &apos;2.40.0&apos;, revision: &apos;fbe29a9&apos;, time: &apos;2014-02-19 20:54:28&apos;&#10;System info: host: &apos;mohit-PC&apos;, ip: &apos;192.168.0.104&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;x86&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;&#10;Driver info: driver.version: EventFiringWebDriver&#10;Command duration or timeout: 0 milliseconds" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
+Error communicating with the remote browser. It may have died.
+Build info: version: '2.40.0', revision: 'fbe29a9', time: '2014-02-19 20:54:28'
+System info: host: 'mohit-PC', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: driver.version: EventFiringWebDriver
+Command duration or timeout: 0 milliseconds
+	at Maven.DesignPatternTest.closeTheDriverInstance(DesignPatternTest.java:188)
+Caused by: org.openqa.selenium.remote.UnreachableBrowserException: 
+Error communicating with the remote browser. It may have died.
+Build info: version: '2.40.0', revision: 'fbe29a9', time: '2014-02-19 20:54:28'
+System info: host: 'mohit-PC', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: driver.version: EventFiringWebDriver
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MOHIT-PC', ip: '192.168.0.104', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_05'
+Driver info: driver.version: EventFiringWebDriver
+]]></failure>
+  </testcase>
 </testsuite>
