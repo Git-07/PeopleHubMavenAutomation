@@ -64,8 +64,8 @@ public class ExtentReport_Latest implements IReporter{
 					 // String image = test.addScreenCapture(paths[i].toString());	
 					    
 			test.log(status, message,
-					MediaEntityBuilder.createScreenCaptureFromPath(paths[i].toString()).build());
 					//MediaEntityBuilder.createScreenCaptureFromPath(paths[i].toString()).build());
+					MediaEntityBuilder.createScreenCaptureFromBase64String(paths[i].toString()).build());
              
 					}
 				}

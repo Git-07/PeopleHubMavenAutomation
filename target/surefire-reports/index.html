@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-LocalisationTesting">
-              <span class="suite-name border-passed">LocalisationTesting</span>
+              <span class="suite-name border-failed">LocalisationTesting</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-LocalisationTesting">
-                    <span>C:\Users\mohit\workspace\Automation_PeopleHub\testng2.xml</span>
+                    <span>C:\Users\mohit\workspace\Automation_PeopleHub\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">2 methods, 1 failed,   1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-LocalisationTesting" class="hide-methods failed suite-LocalisationTesting"> (hide)</a> <!-- hide-methods failed suite-LocalisationTesting -->
+                      <a href="#" panel-name="suite-LocalisationTesting" class="show-methods failed suite-LocalisationTesting"> (show)</a> <!-- show-methods failed suite-LocalisationTesting -->
+                    </span>
+                    <div class="method-list-content failed suite-LocalisationTesting">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LocalisationTesting" title="Maven.DesignPatternTest" hash-for-method="orgatakeSrcImageCES(Chrome, No, en-in, Test1)">orgatakeSrcImageCES(Chrome, No, en-in, Test1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-LocalisationTesting -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,7 +116,7 @@
                     <div class="method-list-content passed suite-LocalisationTesting">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-LocalisationTesting" title="Maven.AppTest" hash-for-method="appTest">appTest</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-LocalisationTesting" title="Maven.DesignPatternTest" hash-for-method="orgbImmersiveAurora(Chrome, ExpectedSrc, AttributeName, PageUrl)">orgbImmersiveAurora(Chrome, ExpectedSrc, AttributeName, PageUrl)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-LocalisationTesting -->
@@ -117,17 +131,43 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-LocalisationTesting" class="panel LocalisationTesting">
-          <div class="suite-LocalisationTesting-class-passed">
+          <div class="suite-LocalisationTesting-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">Maven.AppTest</span>
+              <img src="failed.png"/>
+              <span class="class-name">Maven.DesignPatternTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="appTest">
-                  </a> <!-- appTest -->
-                  <span class="method-name">appTest</span>
+                  <a name="orgatakeSrcImageCES(Chrome, No, en-in, Test1)">
+                  </a> <!-- orgatakeSrcImageCES(Chrome, No, en-in, Test1) -->
+                  <span class="method-name">orgatakeSrcImageCES</span>
+                  <span class="parameters">(Chrome, No, en-in, Test1)</span>
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+	Launched Url is not same expected [https://peoplehub.mindtree.com/Pages/OrgCanvas.aspx] but found [https://peoplehub.mindtree.com/Pages/OrgCanvas.aspxghshgs]
+	at Maven.DesignPatternTest.orgatakeSrcImageCES(DesignPatternTest.java:108)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-LocalisationTesting-class-failed -->
+          <div class="suite-LocalisationTesting-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Maven.DesignPatternTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="orgbImmersiveAurora(Chrome, ExpectedSrc, AttributeName, PageUrl)">
+                  </a> <!-- orgbImmersiveAurora(Chrome, ExpectedSrc, AttributeName, PageUrl) -->
+                  <span class="method-name">orgbImmersiveAurora</span>
+                  <span class="parameters">(Chrome, ExpectedSrc, AttributeName, PageUrl)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -135,7 +175,7 @@
         </div> <!-- panel LocalisationTesting -->
         <div panel-name="test-xml-LocalisationTesting" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\mohit\workspace\Automation_PeopleHub\testng2.xml</span>
+            <span class="header-content">C:\Users\mohit\workspace\Automation_PeopleHub\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -145,7 +185,7 @@
   &lt;listeners&gt;
     &lt;listener class-name=&quot;Maven.ExtentReport_Latest&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test thread-count=&quot;2&quot; verbose=&quot;0&quot; name=&quot;SmokeTest&quot; parallel=&quot;tests&quot;&gt;
+  &lt;test thread-count=&quot;2&quot; verbose=&quot;0&quot; name=&quot;RegressionTest&quot; parallel=&quot;tests&quot;&gt;
     &lt;parameter name=&quot;src&quot; value=&quot;ExpectedSrc&quot;/&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;Chrome&quot;/&gt;
     &lt;parameter name=&quot;localisation&quot; value=&quot;No&quot;/&gt;
@@ -154,9 +194,9 @@
     &lt;parameter name=&quot;locale&quot; value=&quot;en-in&quot;/&gt;
     &lt;parameter name=&quot;testname&quot; value=&quot;Test1&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;Maven.AppTest&quot;/&gt;
+      &lt;class name=&quot;Maven.DesignPatternTest&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- SmokeTest --&gt;
+  &lt;/test&gt; &lt;!-- RegressionTest --&gt;
 &lt;/suite&gt; &lt;!-- LocalisationTesting --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -168,7 +208,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">SmokeTest (1 class)</span>
+                <span class="test-name">RegressionTest (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -194,16 +234,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'appTest')
-data.setCell(0, 2, 'Maven.AppTest')
-data.setCell(0, 3, 21);
+data.setCell(0, 1, 'orgatakeSrcImageCES')
+data.setCell(0, 2, 'Maven.DesignPatternTest')
+data.setCell(0, 3, 101622);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'orgbImmersiveAurora')
+data.setCell(1, 2, 'Maven.DesignPatternTest')
+data.setCell(1, 3, 57249);
 window.suiteTableData['LocalisationTesting']= { tableData: data, tableDiv: 'times-div-LocalisationTesting'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 21 ms</span>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
               <div id="times-div-LocalisationTesting">
               </div> <!-- times-div-LocalisationTesting -->
             </div> <!-- times-div -->
@@ -229,11 +273,25 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">Maven.AppTest</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">appTest</span>
+              <div class="chronological-class-name">Maven.DesignPatternTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">getTheProperty</span>
                 <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">orgatakeSrcImageCES(Chrome, No, en-in, Test1)</span>
+                <span class="method-start">3785 ms</span>
               </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">orgbImmersiveAurora(Chrome, ExpectedSrc, AttributeName, PageUrl)</span>
+                <span class="method-start">105685 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">closeTheDriverInstance(Chrome)</span>
+                <span class="method-start">163010 ms</span>
+              </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

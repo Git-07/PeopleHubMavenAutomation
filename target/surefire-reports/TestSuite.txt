@@ -1,4 +1,10 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 13.94 s - in TestSuite
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 202.569 s <<< FAILURE! - in TestSuite
+Maven.DesignPatternTest.orgatakeSrcImageCES  Time elapsed: 101.902 s  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	Launched Url is not same expected [https://peoplehub.mindtree.com/Pages/OrgCanvas.aspx] but found [https://peoplehub.mindtree.com/Pages/OrgCanvas.aspxghshgs]
+	at Maven.DesignPatternTest.orgatakeSrcImageCES(DesignPatternTest.java:108)
+
