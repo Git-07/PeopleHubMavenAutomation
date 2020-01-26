@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [LocalisationTesting]" parallel="tests">
+  <listeners>
+    <listener class-name="Maven.ExtentReport_Latest"/>
+  </listeners>
+  <test thread-count="2" verbose="0" name="ChromeBrowserTest(failed)" parallel="tests">
+    <parameter name="src" value="ExpectedSrc"/>
+    <parameter name="browser" value="Chrome"/>
+    <parameter name="localisation" value="No"/>
+    <parameter name="attribute" value="AttributeName"/>
+    <parameter name="pageurl" value="PageUrl"/>
+    <parameter name="locale" value="en-in"/>
+    <parameter name="testname" value="Test1"/>
+    <classes>
+      <class name="Maven.DesignPatternTest">
+        <methods>
+          <include name="closeTheDriverInstance"/>
+          <include name="orgatakeSrcImageCES" invocation-numbers="0"/>
+          <include name="getTheProperty"/>
+        </methods>
+      </class> <!-- Maven.DesignPatternTest -->
+    </classes>
+  </test> <!-- ChromeBrowserTest(failed) -->
+</suite> <!-- Failed suite [LocalisationTesting] -->

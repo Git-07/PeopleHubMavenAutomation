@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="LocalisationTesting" duration-ms="129" started-at="2020-01-26T04:56:14Z" finished-at="2020-01-26T04:56:14Z">
+    <groups>
+    </groups>
+    <test name="SmokeTest" duration-ms="129" started-at="2020-01-26T04:56:14Z" finished-at="2020-01-26T04:56:14Z">
+      <class name="Maven.AppTest">
+        <test-method status="PASS" signature="appTest()[pri:0, instance:Maven.AppTest@c87b21]" name="appTest" duration-ms="22" started-at="2020-01-26T04:56:14Z" finished-at="2020-01-26T04:56:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appTest -->
+      </class> <!-- Maven.AppTest -->
+    </test> <!-- SmokeTest -->
+  </suite> <!-- LocalisationTesting -->
+</testng-results>
