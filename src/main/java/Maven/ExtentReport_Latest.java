@@ -2,6 +2,7 @@ package Maven;
 
 import java.io.File;
 import java.io.IOException;
+import java.nio.file.Paths;
 import java.util.List;
 import java.util.Map;
 
@@ -49,7 +50,7 @@ public class ExtentReport_Latest implements IReporter{
 			    Image image = ImageIO.read(directory);*/
 				//[-]*[0-9]*\\.(png|jpg|jpeg)
 				//String screens = System.getProperty("user.dir") + "/ScreenShots";
-				 String screens = "C:\\Users\\mohit\\.jenkins\\workspace\\Maven_Github_Project\\ScreenShots";
+				 String screens = Paths.get("").toAbsolutePath().toString()+"/ScreenShots";
 				//String screens =  "ScreenShots";
 				File directory = new File(screens);
 				//FileFilter f = new WildcardFileFilter(result.getName());
@@ -64,8 +65,8 @@ public class ExtentReport_Latest implements IReporter{
 					 // String image = test.addScreenCapture(paths[i].toString());	
 					    
 			test.log(status, message,
-					//MediaEntityBuilder.createScreenCaptureFromPath(paths[i].toString()).build());
-					MediaEntityBuilder.createScreenCaptureFromBase64String(paths[i].toString()).build());
+					MediaEntityBuilder.createScreenCaptureFromPath(paths[i].toString()).build());
+					//MediaEntityBuilder.createScreenCaptureFromBase64String(paths[i].toString()).build());
              
 					}
 				}
