@@ -13,6 +13,7 @@ public class AppTest  {
     public static void appTest()
     {
         System.out.println("Smoke test of App test class");
+        System.out.println("Present Project Directory : "+ System.getProperty("user.dir"));
     }
     public void testApp()
     {

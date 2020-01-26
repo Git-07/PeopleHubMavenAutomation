@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="LocalisationTesting" duration-ms="129" started-at="2020-01-26T04:56:14Z" finished-at="2020-01-26T04:56:14Z">
+  <suite name="LocalisationTesting" duration-ms="94" started-at="2020-01-26T09:53:16Z" finished-at="2020-01-26T09:53:16Z">
     <groups>
     </groups>
-    <test name="SmokeTest" duration-ms="129" started-at="2020-01-26T04:56:14Z" finished-at="2020-01-26T04:56:14Z">
+    <test name="SmokeTest" duration-ms="94" started-at="2020-01-26T09:53:16Z" finished-at="2020-01-26T09:53:16Z">
       <class name="Maven.AppTest">
-        <test-method status="PASS" signature="appTest()[pri:0, instance:Maven.AppTest@c87b21]" name="appTest" duration-ms="22" started-at="2020-01-26T04:56:14Z" finished-at="2020-01-26T04:56:14Z">
+        <test-method status="PASS" signature="appTest()[pri:0, instance:Maven.AppTest@c87b21]" name="appTest" duration-ms="21" started-at="2020-01-26T09:53:16Z" finished-at="2020-01-26T09:53:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- appTest -->
