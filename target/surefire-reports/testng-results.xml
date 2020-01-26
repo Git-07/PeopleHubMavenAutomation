@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="LocalisationTesting" duration-ms="182518" started-at="2020-01-26T11:33:51Z" finished-at="2020-01-26T11:36:53Z">
+  <suite name="LocalisationTesting" duration-ms="350525" started-at="2020-01-26T15:16:58Z" finished-at="2020-01-26T15:22:49Z">
     <groups>
     </groups>
-    <test name="RegressionTest" duration-ms="182518" started-at="2020-01-26T11:33:51Z" finished-at="2020-01-26T11:36:53Z">
+    <test name="RegressionTest" duration-ms="350525" started-at="2020-01-26T15:16:58Z" finished-at="2020-01-26T15:22:49Z">
       <class name="Maven.DesignPatternTest">
-        <test-method status="PASS" signature="getTheProperty()[pri:0, instance:Maven.DesignPatternTest@2d45ba]" name="getTheProperty" is-config="true" duration-ms="1284" started-at="2020-01-26T11:33:49Z" finished-at="2020-01-26T11:33:51Z">
+        <test-method status="PASS" signature="getTheProperty()[pri:0, instance:Maven.DesignPatternTest@2d45ba]" name="getTheProperty" is-config="true" duration-ms="4483" started-at="2020-01-26T15:16:54Z" finished-at="2020-01-26T15:16:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getTheProperty -->
-        <test-method status="FAIL" signature="orgatakeSrcImageCES(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Maven.DesignPatternTest@2d45ba]" name="orgatakeSrcImageCES" duration-ms="126159" started-at="2020-01-26T11:33:51Z" finished-at="2020-01-26T11:35:57Z">
+        <test-method status="FAIL" signature="orgatakeSrcImageCES(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Maven.DesignPatternTest@2d45ba]" name="orgatakeSrcImageCES" duration-ms="225834" started-at="2020-01-26T15:16:58Z" finished-at="2020-01-26T15:20:44Z">
           <params>
             <param index="0">
               <value>
@@ -70,7 +70,7 @@ at java.lang.Thread.run(Thread.java:745)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- orgatakeSrcImageCES -->
-        <test-method status="PASS" signature="orgbImmersiveAurora(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Maven.DesignPatternTest@2d45ba]" name="orgbImmersiveAurora" duration-ms="45512" started-at="2020-01-26T11:35:57Z" finished-at="2020-01-26T11:36:43Z">
+        <test-method status="PASS" signature="orgbImmersiveAurora(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Maven.DesignPatternTest@2d45ba]" name="orgbImmersiveAurora" duration-ms="102199" started-at="2020-01-26T15:20:45Z" finished-at="2020-01-26T15:22:27Z">
           <params>
             <param index="0">
               <value>
@@ -96,7 +96,7 @@ at java.lang.Thread.run(Thread.java:745)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- orgbImmersiveAurora -->
-        <test-method status="FAIL" signature="closeTheDriverInstance(java.lang.String)[pri:0, instance:Maven.DesignPatternTest@2d45ba]" name="closeTheDriverInstance" is-config="true" duration-ms="10666" started-at="2020-01-26T11:36:43Z" finished-at="2020-01-26T11:36:53Z">
+        <test-method status="FAIL" signature="closeTheDriverInstance(java.lang.String)[pri:0, instance:Maven.DesignPatternTest@2d45ba]" name="closeTheDriverInstance" is-config="true" duration-ms="21543" started-at="2020-01-26T15:22:27Z" finished-at="2020-01-26T15:22:49Z">
           <params>
             <param index="0">
               <value>

@@ -17,7 +17,8 @@ public class Capture_Screenshot {
 			TakesScreenshot screen = (TakesScreenshot) driver;
 			File source = screen.getScreenshotAs(OutputType.FILE);
 			//FileUtils.copyFileToDirectory(source, new File ("./ScreenShots/"+screenshotName));
-		    FileUtils.copyFile(source, new File ("./ScreenShots/"+screenshotName+".png"));
+		   // FileUtils.copyFile(source, new File ("./ScreenShots/"+screenshotName+".png"));
+			FileUtils.copyFile(source, new File ("./target/surefire-reports/"+screenshotName+".png"));
 		}
 		catch(Exception e){
 			System.out.println(e);
