@@ -48,7 +48,8 @@ public class ExtentReport_Latest implements IReporter{
 			    File directory = new File(screens);
 			    Image image = ImageIO.read(directory);*/
 				//[-]*[0-9]*\\.(png|jpg|jpeg)
-				String screens = System.getProperty("user.dir") + "/ScreenShots";
+				//String screens = System.getProperty("user.dir") + "/ScreenShots";
+				 String screens = "C:\\Users\\mohit\\.jenkins\\workspace\\Maven_Github_Project\\ScreenShots";
 				//String screens =  "ScreenShots";
 				File directory = new File(screens);
 				//FileFilter f = new WildcardFileFilter(result.getName());
