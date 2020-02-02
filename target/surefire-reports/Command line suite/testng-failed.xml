@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test thread-count="5" verbose="0" name="Command line test(failed)">
+    <classes>
+      <class name="Maven.DesignPatternTest">
+        <methods>
+          <include name="closeTheDriverInstance"/>
+          <include name="orgatakeSrcImageCES"/>
+          <include name="orgbImmersiveAurora"/>
+          <include name="getTheProperty"/>
+        </methods>
+      </class> <!-- Maven.DesignPatternTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

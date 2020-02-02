@@ -11,15 +11,15 @@
 		</RollingFile>
 	</Appenders>
 	<Loggers>
-		<Logger name="Com.Page_Elements.PeopleHub_ORGPage" level="trace"
+		<Logger name="Maven.DesignPatternTest" level="trace"
 			additivity="false">
 			<AppenderRef ref="file" />
 		</Logger>
-		<Logger name="Com.Test_Classes.Test_Class1" level="trace"
+		<Logger name="Maven.InternetExplorerWebDriver" level="trace"
 			additivity="false">
 			<AppenderRef ref="file" />
 		</Logger>
-		<Logger name="Com.App_Functions.WebDriver_Instance" level="trace"
+		<Logger name="Maven.ChromeWebDriver" level="trace"
 			additivity="false">
 			<AppenderRef ref="file" />
 		</Logger>

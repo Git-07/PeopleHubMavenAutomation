@@ -58,14 +58,14 @@ public class ExtentReport_Latest implements IReporter{
 				 String screens = Paths.get("").toAbsolutePath().toString()+"/ScreenShots";
 				
 				//String screens = Paths.get("").toAbsolutePath().toString()+"/target/surefire-reports";  
-				System.out.println("The screens path is  : " + screens);
+				//System.out.println("The screens path is  : " + screens);
 				//String screens =  "ScreenShots";
 				File directory = new File(screens);
 				//FileFilter f = new WildcardFileFilter(result.getName());
 				File[] paths = directory.listFiles();
 				for(int i=0; i<paths.length; i++){
-					System.out.println("sdncjsncjldsncdscljnds " + paths.length);
-					System.out.println(paths[i]);
+					//System.out.println("sdncjsncjldsncdscljnds " + paths.length);
+					//System.out.println(paths[i]);
 					if(paths[i].toString().contains(result.getName())){
 						//if (result.getThrowable() != null)
 							//message = result.getThrowable().getMessage();

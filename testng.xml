@@ -1,6 +1,6 @@
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <!-- <?xml version="1.0" encoding="UTF-8"?> -->
-<suite name="LocalisationTesting" parallel="tests" thread-count="2">
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="LocalisationTesting" parallel="none">
 <listeners>
 <listener class-name="Maven.ExtentReport_Latest"></listener>
 </listeners>

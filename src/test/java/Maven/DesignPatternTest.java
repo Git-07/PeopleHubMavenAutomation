@@ -45,7 +45,7 @@ public class DesignPatternTest {
 		}
 	}
  
-	@Parameters({ "browser" ,"localisation", "locale", "testname" })
+	@Parameters({"browser" ,"localisation", "locale", "testname"})
 	@Test/*(groups = { "smoke" })*/
 	public void orgatakeSrcImageCES(String browser, String localisation, String locale, String testname) throws IOException {
 		SoftAssert softassert = new SoftAssert();
@@ -108,7 +108,7 @@ public class DesignPatternTest {
 		softassert.assertAll();
 	}
 
-	@Parameters({ "browser", "src", "attribute", "pageurl"})
+	@Parameters({"browser", "src", "attribute", "pageurl"})
 	@Test/*(groups = { "functional" })*/
 	public void orgbImmersiveAurora(String browser, String src, String attribute, String pageurl) throws IOException {
 		int i = -1;
@@ -182,7 +182,7 @@ public class DesignPatternTest {
 	}
 
 	@Parameters({ "browser" })
-	@AfterTest(groups = { "smoke", "functional" })
+	@AfterTest/*(groups = { "smoke", "functional" })*/
 	public void closeTheDriverInstance(String browser) throws IOException {
 
 		driverClass.selectTheWebDriverInstance(browser).getWebDriverInstance().quit();
