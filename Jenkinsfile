@@ -12,7 +12,7 @@ pipeline {
         stage('test') {
             steps {
                     withMaven(maven : 'apache-maven-3.5.3') {
-                            sh 'mvn test'
+                            sh 'mvn test -PRegression'
                   }                
             }         
         }
