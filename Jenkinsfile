@@ -13,7 +13,7 @@ pipeline {
             steps {
                     withMaven(maven : 'apache-maven-3.5.3') {
                 
-                            sh 'mvn test -PRegression'
+                            bat 'mvn test -PRegression'
                   }                
             }         
         }
