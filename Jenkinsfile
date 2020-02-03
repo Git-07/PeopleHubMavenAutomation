@@ -1,9 +1,20 @@
-node{
-        stage('SCM Checkout') {                 
-                git 'https://github.com/Git-07/PeopleHubMavenAutomation' 
+pipeline {
+    agent any 
+    stages {
+        stage('compile') {
+            steps {
+                    withMaven(maven : 'apache-maven-3.5.3') {
+                            sh 'mvn clean compile'
+                    }       
+                }                
             }
-        stage('Compile-Package') { 
-                def mvnhome = tool name: 'apache-maven-3.5.3', type: 'maven'
-                sh 'mvn test'
-        }        
+       
+        stage('compile') {
+            steps {
+                    withMaven(maven : 'apache-maven-3.5.3') {
+                            sh 'mvn test'
+                  }                
+            }         
+        }
     }
+}
