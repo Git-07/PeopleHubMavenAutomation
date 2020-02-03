@@ -1,8 +1,9 @@
 node{
-        stage('SCM Checkout') { 
+        stage('SCM Checkout') {                 
                 git 'https://github.com/Git-07/PeopleHubMavenAutomation' 
             }
         stage('Compile-Package') { 
-            sh 'mvn package'
+                def mvnhome = tool name: 'apache-maven-3.5.3', type: 'maven'
+                sh "${mvnhome}/bin/mvn package"
         }        
     }
