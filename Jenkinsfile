@@ -8,11 +8,11 @@ pipeline {
                     }       
                 }                
             } */
-        stage('run the remote web driver') {
+      /*  stage('run the remote web driver') {
             steps{
              
             }
-        }
+        } */
         stage('test') {
             steps {
                               bat 'start cmd.exe'
