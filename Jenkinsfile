@@ -15,7 +15,8 @@ pipeline {
         } */
         stage('test') {
             steps {
-                            call 'run.bat'                               
+                  bat 'start cmd.exe\k'          
+                  bat 'run.bat'                               
                               
                     withMaven(maven : 'apache-maven-3.5.3') {
                 
