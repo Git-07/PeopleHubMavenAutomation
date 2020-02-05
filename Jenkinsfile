@@ -23,7 +23,10 @@ pipeline {
                 
                             bat 'mvn test -PRegression'
                   }                
-            }         
+            }            
+        }
+        stage('terminate'){
+        bat 'terminate.bat'
         }
     }
 }
