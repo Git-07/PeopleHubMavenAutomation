@@ -1,0 +1,2 @@
+First -> “netstat -a -o –n”
+Second-> “taskkill /F /PID 15508”
