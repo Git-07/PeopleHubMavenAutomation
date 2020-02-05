@@ -12,7 +12,7 @@ pipeline {
             steps{
               bat 'start cmd.exe'
                 bat 'run.bat'
-               
+               return
             }
         }
         stage('test') {
