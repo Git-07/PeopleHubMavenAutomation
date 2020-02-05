@@ -10,8 +10,8 @@ pipeline {
             } */
         stage('run the remote web driver') {
             steps{
-              bat 'run.bat'
-                exit
+              bat 'start cmd.exe run.bat'
+               
             }
         }
         stage('test') {
