@@ -26,7 +26,9 @@ pipeline {
             }            
         }
         stage('terminate'){
-        bat 'terminate.bat'
+            steps{
+                 bat 'terminate.bat'
+        }
         }
     }
 }
