@@ -11,8 +11,7 @@ pipeline {
         stage('run the remote web driver') {
             steps{
               bat 'start cmd.exe'
-                bat 'run.bat'
-               return
+                bat 'run.bat'              
             }
         }
         stage('test') {
