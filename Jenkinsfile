@@ -15,8 +15,8 @@ pipeline {
         } */
         stage('test') {
             steps {
-                              bat 'start cmd.exe'
-                              bat 'run.bat' 
+                            call 'run.bat'                               
+                              
                     withMaven(maven : 'apache-maven-3.5.3') {
                 
                             bat 'mvn test -PRegression'
