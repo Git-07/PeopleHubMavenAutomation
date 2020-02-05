@@ -8,16 +8,16 @@ pipeline {
                     }       
                 }                
             } */
-      /*  stage('run the remote web driver') {
+       stage('run the remote web driver') {
             steps{
-             
+                   bat 'start cmd.exe'          
+                   bat 'run.bat'                               
+                              
             }
-        } */
+        } 
         stage('test') {
             steps {
-                  bat 'start cmd.exe\k'          
-                  bat 'run.bat'                               
-                              
+
                     withMaven(maven : 'apache-maven-3.5.3') {
                 
                             bat 'mvn test -PRegression'
