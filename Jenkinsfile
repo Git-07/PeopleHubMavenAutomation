@@ -10,9 +10,7 @@ pipeline {
             } */
         stage('run the remote web driver') {
             steps{
-             d:
-            cd D:\\software\\jenkins_run
-            java -jar selenium-server-standalone-2.40.0.jar -Dwebdriver.chrome.driver="chromedriver.exe"
+              bat run.bat
             }
         }
         stage('test') {
