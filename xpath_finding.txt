@@ -1,0 +1,29 @@
+child:: will select the immediate descendants of the context node, but does not go any deeper, like descendant:: does.
+
+following:: will select all of the nodes that come after the context node and their descendant's, but that does not include the context node's descendants.
+
+descendant:: will select all of the nodes along the child:: axis, as well as their children, and their children's children, etc..
+
+>>>>>>>>>>
+
+xpath finding
+
+$x("//a[contains(text(),'SELENIUM')]/parent::h4/parent::div")
+
+
+$x("//a[@href='http://www.guru99.com/selenium-tutorial.html']/following-sibling::h4/parent::div")
+
+
+$x("//a[@href='http://www.guru99.com/selenium-tutorial.html']/following-sibling::h4/ancestor::div[@class='rt-grid-2 rt-omega']/parent::div")
+
+
+$x("//a[@href='http://www.guru99.com/selenium-tutorial.html']/following-sibling::h4/ancestor::div[@class='module-content']//div//a[@href='http://www.guru99.com/sap-mm-training-tutorials.html']/ancestor::div[@class='rt-grid-2 rt-omega']/parent::div")
+
+
+$x("//label[@for='sitemap-search']/parent::div/parent::div")
+
+
+$x("//iframe[@id='a077aa5e']/parent::article/div//h3[contains(text(),'Desktop, mobile, and tablet access')]/parent::div/parent::div/parent::div")
+
+
+$x("//h4[contains(text(),'Certifications')]/ancestor::div[@class='rt-grid-2 rt-omega']/parent::div//div/h4[contains(text(),'Contact Us')]")
